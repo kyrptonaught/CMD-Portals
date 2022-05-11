@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "cmd-portals",
+  "version": "0.0.1-1.18",
+  "name": "CMD-Portals",
+  "description": "Portals that execute a command",
+  "authors": [
+    "kyrptonaught"
+  ],
+  "contact": {
+    "homepage": "https://github.com/kyrptonaught/CMD-Portals",
+    "sources": "https://github.com/kyrptonaught/CMD-Portals"
+  },
+  "license": "MIT",
+  "icon": "assets/customportalapi/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.kyrptonaught.CmdPortals.CMDPortalsMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.4.0",
+    "fabric": "*"
+  }
+}
